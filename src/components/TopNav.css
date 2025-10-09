@@ -1,0 +1,43 @@
+.top-nav {
+  border-bottom: 1px solid #e5e5e5;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 700;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #333;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f8f8;
+}
+
+.btn.active {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+

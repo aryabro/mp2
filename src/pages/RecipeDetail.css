@@ -1,0 +1,94 @@
+.recipe-detail {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.back {
+  text-decoration: underline;
+  color: #333;
+}
+
+.pager {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pager-btn {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f8f8;
+}
+
+.pager-pos {
+  color: #666;
+}
+
+.content {
+  display: grid;
+  gap: 16px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 16px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hero-meta h1 {
+  margin: 0 0 6px 0;
+}
+
+.sub {
+  color: #666;
+}
+
+.tags {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #f8f8f8;
+  font-size: 12px;
+}
+
+.instructions {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.ingredients {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.ing-name {
+  font-weight: 600;
+}
+
+.ing-measure {
+  color: #666;
+}
+
+
